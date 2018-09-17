@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageTwo">
+
+    <TextView
+        android:id="@+id/txtCompany"
+        android:layout_width="202dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:id="@+id/txtCompany2"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:text="Welcome to :"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="166dp"
+        android:text="HELLO"
+        android:textSize="60dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:id="@+id/txtInformation"
+        android:layout_width="292dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView4"
+        android:text="   "
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+</RelativeLayout>
